@@ -97,5 +97,54 @@
  .trust-s{
   padding-top: 40px;
  }
+
+ /* contact page */
+
+ .contact-form{
+  max-width: 30rem;
+  margin: auto;
+ }
+
+ .contact-input{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+ }
+#input-c{
+  margin: 15px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+.btn-sub{
+  width: 6rem;
+  height: 2.5rem;
+    background-color: blue;
+    border-radius: 9px;
+    color: wheat;
+    text-align: center;
+    border: none;  
+    text-decoration: none; 
+      
+}
+
+/* footer */
+
+.contant-short{
+  width: 60vw;
+  background-color: #f0eaea;    
+}
+footer{
+  background-color: rgb(50, 44, 44);
+  color: white;
+}
+.social-icon{
+  display: flex;
+  gap: 1rem;
+  
+}
+
+ 
+
   
  
