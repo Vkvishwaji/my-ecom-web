@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatureProduct from './components/FeatureProduct'
 import HeroSection from './HeroSection'
 import Services from './Services'
 import Trusted from './Trusted'
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <>
     <HeroSection myData={data}/>
+    <FeatureProduct/>
     <Services/>
     <Trusted/>
     </>

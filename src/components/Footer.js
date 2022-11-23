@@ -5,7 +5,7 @@ import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <section className="contant-short text-center">
+      {/* <section className="contant-short text-center">
         <div className="row">
           <div className="col">
             <p className="fs-6">Ready to get started?</p>
@@ -17,7 +17,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <footer>
         <div className="container contant-short-1">

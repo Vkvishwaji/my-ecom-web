@@ -144,7 +144,13 @@ footer{
   
 }
 
- 
+ /* featureProduct */
+
+ .grid-three-column{
+  display: flex;
+    gap: 174px;
+    justify-content: center;
+ }
 
   
  
