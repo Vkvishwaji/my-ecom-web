@@ -152,5 +152,15 @@ footer{
     justify-content: center;
  }
 
+ /* singalProduct */
+.product_waranty_data{
+  width: 100%;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
   
  

@@ -42,12 +42,19 @@ const productReducer = (state, action) => {
       return {
         ...state,
         isSingalLoading: false,
-        singalProduct: action.payload,
-      };
+       };
+       
+       case "SET_SINGAL_PRODUCT":
+        return {
+          ...state,
+          isSingalLoading: false,
+          singalProduct: action.payload,
+        }
+
       case "SET_SINGAL_ERROR":
       return {
         ...state,
-        isSingalLoading: false,
+        isSingalLoading: true,
         isError: true,
       };
 
